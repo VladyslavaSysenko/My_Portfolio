@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vladyslava Sysenko</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+
+    <link rel="icon" href="images/svg/female.png">
+    
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="sass/tooplate-style.css">
+    
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="CV">CV</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hi, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Vladyslava Sysenko</span>
+                                    <span class="animated-item">Python Developer</span>
+                                </div>
+                        </h1>
+
+                        <p>Looking for a junior python developer role to implement my knowledge into 
+                          commertial experience and learn even more!</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://vladyslavasysenko.github.io/CV/CV_VladyslavaSysenko.pdf" target="_blank" download="CV_VladyslavaSysenko"  class="btn mr-lg-2 custom-btn">
+                            <i class='uil uil-file-alt'></i> Open CV
+                          </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>My projects</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div>
+                            <h3>Auction</h3>
+                            <h5>E-commerce auction site based on Django</h5>
+                            <h6>That allows users to post auction listings, place bids and comment on listings,
+                                and add listings to a watchlist.</h6>
+                          </div>
+                          <div class="description">
+                           <p><span>Active Listings:</span> displays all of the currently active auction listings. Signed-in user can add them to Watchlist.</p>
+                           <p><span>Listing:</span> clicking on a listing takes users to the listing page, where users can view all details about the listing. 
+                            Signed-in user can add comments, 
+                             add or remove the item to Watchlist as well as bid on the item. Creator of the listing
+                             can close the auction from this page.</p>
+                            <p><span>Create Listing:</span> to create a listing, user must specify a title, description and the starting bid. 
+                            Users can provide a URL for an image for the listing and/or a category 
+                            (existing or new one).</p>
+                            <p><span>Watchlist:</span> displays all the listings that user has added to their watchlist.</p> 
+                            <p><span>Categories:</span> displays a list of all listing categories. Clicking on the any category 
+                              displays all of the active listings in that category.</p> 
+                          </div>
+                          <div class="buttons">
+                           <button class="btn" onclick="window.open('', '_blank')">
+                              Open site
+                           </button>
+                           <button class="btn" onclick="window.open('https://github.com/VladyslavaSysenko/Auction_Django', '_blank')">
+                              Open code
+                           </button>
+                           </div>
+                          
+                        </div>
+
+                        <div class="item">
+                          <div>
+                            <h3>Mail</h3>
+                            <h5>This is an single-page-app email app based on Django and JavaScript</h5>
+                            <h6>That allows users to send and receive emails, read, answer and archive them.</h6>
+                          </div>
+                          <div class="description">
+                           <p><span>Inbox:</span> displays all received emails. If the email is read/unread, it appears with a blue/pink 
+                            background accordingly.</p>
+                            <p><span>Sent:</span> displays all sent emails.</p>
+                            <p><span>Archived:</span> displays all archived emails.</p>
+                            <p><span>Compose:</span> User can send an email to existing user stating subject and body of the email.</p>
+                            <p><span>Email:</span> Clicking on the email, the user is shown a content of that email. 
+                            From the inbox page, they can be replied and/or archived. From the archive page, the can be unarchived.</p>
+                          </div>
+                          <div class="buttons">
+                           <button class="btn" onclick="window.open('', '_blank')">
+                              Open site
+                           </button>
+                           <button class="btn" onclick="window.open('https://github.com/VladyslavaSysenko/Mail_Django', '_blank')">
+                              Open code
+                           </button>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div>
+                            <h3>Network</h3>
+                            <h5>A social network site based on Django and JavaScript</h5>
+                            <h6>That allows users to make posts, like and follow users.</h6>
+                          </div>
+                          <div class="description">
+                          <p><span>All Posts:</span> displays all posts from all users, with the most recent posts first. 
+                            Users can like/unlike any post. Users can edit their own posts.</p>
+                          <p><span>New Post:</span> signed-in users can write a new text-based post.</p>
+                          <p><span>Following:</span> displays all posts made by followed users.</p>
+                          <p><span>Profile:</span> clicking on a username loads that user’s profile page. Signed-in users can 
+                          follow or unfollow the person.</p> 
+                          </div>
+                          <div class="buttons">
+                           <button class="btn" onclick="window.open('', '_blank')">
+                              Open site
+                           </button>
+                           <button class="btn" onclick="window.open('https://github.com/VladyslavaSysenko/Network_Django', '_blank')">
+                              Open code
+                           </button>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div>
+                            <h3>My Games</h3>
+                            <h5>A web-based application based on Flask and Javascript</h5>
+                            <h6>That allows users to collect all memories about played games for board games enthusiasts :)</h6>
+                          </div>
+                          <div class="description">
+                            <p><span> Games:</span> displays all board games in which you played. Games can be sorted
+                               by name, rating, date, price or owning. Adding a new game button is also here.</p>
+                            <p><span>Random:</span> here first player can be chosen or made a random order of players. To do so, 
+                              press the "start" button, type one letter/number for each person and then press 
+                              "first player" or "random order". You can press again to change if you want.</p>
+                            <p><span>More games:</span> displays a list of websites where you can search for new interesting games. 
+                              At first there will be default sites but you can delete them and add new ones.</p>
+                          </div>
+                          <div class="buttons">
+                           <button class="btn" onclick="window.open('', '_blank')">
+                              Open site
+                           </button>
+                           <button class="btn" onclick="window.open('', '_blank')">
+                              Open code
+                           </button>
+                          </div>
+                        </div>
+
+                        
+                        
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12">
+                  <h2 class="mb-4">Education and Experience</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>now</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>AWS certificate</span><small>Cloud Practitioner</small></h3>
+                                  <p>I am preparing for AWS Cloud Practitioner certification, learning 
+                                    about and how to work with various AWS services. Also, I'm deploying 
+                                    my created projects to AWS using Amazon EC2 and RDS.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>now</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Harvard course</span><small>CS50web</small></h3>
+                                  <p>I am finishing Harvard course "CS50's Web Programming with Python 
+                                    and JavaScript", developing websites with Django and Javascript 
+                                    (Already made auction, mail and network websites).</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span></span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Internship</span><small>Meduzzen Co.</small></h3>
+                                  <p>I have finished an internship in the company Meduzzen and made 
+                                    a back-end for website about quizzes using FastApi, Redis, PostgeSQL and docker.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span></span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>EPAM course</span><small>Front-end</small></h3>
+                                  <p>I have finished EPAM course "Front-End Self-Paced Online Program", 
+                                    using HTML, CSS, Javacript and Git.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span></span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Harvard course</span><small>CS50x</small></h3>
+                                <p>I have completed Harvard course "CS50: Introduction to computer science". 
+                                  I have developed a website about board games using Flask and MySQL.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span></span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>English</span><small></small></h3>
+                                <p>I have passed the official Cambridge English test on C2 level.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2019<br>-<br>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Chemistry</span><small></small></h3>
+                                <p>I have a bachelor's degree in chemistry (V. N. Karazin Kharkiv National University).</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12">
+                  <h2 class="mb-4 mobile-mt-2 ml-lg-3 mobile-ml-05">Hard skills</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper-sm">
+                             <div class="timeline-yr-sm"></div>
+                             <div class="timeline-info">
+                                  <h4>Python (Django, DRF, FastApi, Flask)</h4>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper-sm">
+                             <div class="timeline-yr-sm"></div>
+                             <div class="timeline-info">
+                                  <h4>AWS (EC2, RDS, S3...)</h4>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper-sm">
+                             <div class="timeline-yr-sm"></div>
+                             <div class="timeline-info">
+                                  <h4>PostgreSQL, MySQL, Redis</h4>
+                             </div>
+                        </div>
+    
+                        <div class="timeline-wrapper-sm">
+                             <div class="timeline-yr-sm"></div>
+                             <div class="timeline-info">
+                                  <h4>Docker, docker-compose, Git</h4>
+                             </div>
+                        </div>
+  
+                        <div class="timeline-wrapper-sm">
+                             <div class="timeline-yr-sm"></div>
+                             <div class="timeline-info">
+                                  <h4>Javacript, HTML5, CSS3</h4>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-4" id="contact">
+      <div class="container">
+          
+          <div class="col-lg-6 mr-lg-5 col-12">
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-4">Contact me</h3>
+                  <a id="email" title="Click to copy" data-toggle="tooltip" data-placement="bottom">vladyslavasysenko@gmail.com</a>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="https://www.linkedin.com/in/vladyslava-sysenko-72b4b127b/" data-toggle="tooltip" data-placement="left" title="Linkedin">
+                          <img class="social-pic" src="images/svg/linkedin.svg">
+                        </a>
+                    </li>
+                     <li><a href="https://t.me/EtoVladuska" data-toggle="tooltip" data-placement="left" title="Telegram">
+                          <img class="social-pic" src="images/svg/telegram.svg">
+                        </a>
+                     </li>
+                     <li><a href="https://github.com/VladyslavaSysenko" data-toggle="tooltip" data-placement="left" title="Github">
+                          <img class="social-pic" src="images/svg/github.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Have a good day :)</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+
+  </body>
+</html>
