@@ -189,11 +189,11 @@ h6 {
 	left: 0;
 	animation: BottomTotop 6s linear infinite 0s;
 
-	&:nth-child(2n+2) {
-		animation-delay: 2s;
+	&:nth-child(odd) {
+		animation-delay: 1s;
 	}
 
-	&:nth-child(3n+3) {
+	&:nth-child(even) {
 		animation-delay: 4s;
 	}
 }
@@ -213,12 +213,12 @@ h6 {
 		transform: translateY(0px);
 	}
 
-	25% {
+	40% {
 		opacity: 1;
 		transform: translateY(0px);
 	}
 
-	30% {
+	50% {
 		opacity: 0;
 		transform: translateY(5px);
 	}
